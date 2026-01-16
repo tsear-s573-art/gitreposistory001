@@ -52,8 +52,17 @@
             justify-content:space-around;
             padding: 1rem;
         }
-        .card{
-            border: 2px solid black;
+        #cardscontainer {
+            display: flex;
+            justify-content: space-around;
+        }
+        #linklist {
+            background-color: lightyellow;
+            border: 1px solid blue;
+            list-style: none;
+            display: flex;
+            justify-content:space-around;
+            padding: 1rem;
         }
 
     </style>
@@ -80,21 +89,23 @@
 </div>
 
     <h2>Cards</h2>
-    <div class="card">
-        <h3>Card Title 1</h3>
-        <p>This is a description for card 1.</p>
-    </div>
-    <div class="card">
-        <h3>Card Title 2</h3>
-        <p>This is a description for card 1.</p>
-    </div>
-    <div class="card">
-        <h3>Card Title 3</h3>
-        <p>This is a description for card 1.</p>
-    </div>
+<div id="cardscontainer">
+        <div class="card">
+            <h3>Card Title 1</h3>
+            <p>This is a description for card 1.</p>
+        </div>
+        <div class="card">
+            <h3>Card Title 2</h3>
+            <p>This is a description for card 1.</p>
+        </div>
+        <div class="card">
+            <h3>Card Title 3</h3>
+            <p>This is a description for card 1.</p>
+        </div>
+</div id="cardscontainer">
 
     <h2>Link Lists</h2>
-    <ul>
+    <ul id="linklist">
         <li><a href="https://google.com/">Google</a></li>
         <li><a href="https://google.com/">Google</a></li>
         <li><a href="https://google.com/">Google</a></li>
